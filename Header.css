@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: black; /* Changed to black */
+  color: yellow; /* Changed to yellow */
+}
+
+.profile-img {
+  width: 80px; /* Ukuran gambar */
+  height: 80px;
+  border-radius: 50%; /* Membuat gambar bulat */
+  border: 2px solid yellow; /* Changed to yellow */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Bayangan untuk efek lembut */
+  margin-right: 1rem; /* Jarak kanan dari gambar */
+  margin-left: auto; /* Membuat gambar terpusat */
+}
+
+.header-info {
+  flex: 1; /* Menggunakan ruang tersedia */
+}
+
+.header-info h1 {
+  font-size: 1.5rem; /* Ukuran teks judul */
+  margin: 0; /* Menghapus margin default */
+  color: yellow; /* Ensure heading color is yellow */
+}
+
+.header-info p {
+  margin: 0.5rem 0; /* Margin pada paragraf */
+  color: yellow; /* Ensure paragraph color is yellow */
+}
